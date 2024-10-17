@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: #101010be;
+    padding: 20px;
+}
+
+#barra-de-navegacao ul {
+    list-style: none;
+    display: inline;
+}
+
+#barra-de-navegacao ul li{
+    display: inline;
+    margin: 0px 10px;
+}
+
+#barra-de-navegacao ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    
+}
+
+#barra-de-navegacao ul li a:hover{
+    color: #f56c04 ;
+}
+
+
+#main-content{
+    display: flex;
+    /* flex-flow: column wrap; */
+    flex-direction: column;
+}
+
+#introducao{
+    display: flex;
+}
+
+img{
+    width: 400px ;
+    
+}
+
+h1{
+    padding: 20px;
+    /* margin-left: 30% ; */
+    margin: auto;
+}
+
+#introducao p{
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+p{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1.2rem;
+}
+
+h3{
+    /* margin-left: 5%; */
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.topico-vicio-dopamina h3{
+    text-align: left;
+    padding-left: 15%;
+}
+
+.topico-vicio-dopamina p{
+    margin-right: 30%;
+    padding-left: 3%;
+}
+
+
+.preto{
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.preto-1{
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(fotos/vicio.png);
+    background-size: cover;
+}
+
+.topoico-relacao-interpessoal h3{
+    text-align: left;
+    padding-left: 15%;
+}
+
+.topoico-relacao-interpessoal p{
+    margin-right: 30%;
+    padding-left: 3%;
+}
+
+.preto-2{
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3341177:1677703063/image.jpg?h=630&q=0.6&w=1200&$p$h$q$w=f76cc5e);
+    background-size: cover;
+    background-position: right;
+}
+
+.topoico-relacao-interpessoal h3{
+    text-align: left;
+    padding-left: 15%;
+}
+
+.topoico-relacao-interpessoal p{
+    margin-right: 30%;
+    padding-left: 3%;
+}
+
+.preto-3{
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(https://i.pinimg.com/originals/23/8f/5a/238f5a8858fe3ae3d37b3eb5ca501091.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+
+
+.branco{
+    background-color: #ffffff;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+table{
+    border: 1px #000000 solid;
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+}
+
+th{
+    background-color: #f56c04;
+}
+
+th, td{
+    border: 1px #000000 solid;
+    padding: 5px;
+}
+
+form{
+        margin: auto;
+}
+
+button{
+    border: none;
+    width: 30px;
+    color: #000000;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #f56c04;
+}
+
+
+
+label{
+    display: block;
+}
+
+footer{
+    text-align: center;
+
+}
+
+h4{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #0f13f3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#referencias {
+    text-align: center;
+}
